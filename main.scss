@@ -1,0 +1,49 @@
+@charset 'UTF-8';
+
+// 1. Configuration and helpers
+@import
+  'abstracts/variables',
+  'abstracts/functions',
+  'abstracts/mixins';
+
+// 2. Vendors
+@import
+  'vendors/normalize';
+
+// 3. Base stuff
+@import
+  'base/reset',
+  'base/animations',
+  'base/base',
+  'base/fonts',
+  'base/typography',
+  'base/helpers';
+
+// 4. Layout-related sections
+@import
+  'layout/footer',
+  'layout/forms',
+  'layout/grid',
+  'layout/header',
+  'layout/modal',
+  'layout/navigation',
+  'layout/sidebar'
+  ;
+
+// 5. Components
+@import
+  'components/button',
+  'components/thumbnails';
+
+// 6. Page-specific styles
+@import
+  'pages/home';
+
+// 7. Themes
+@import
+  'themes/admin',
+  'themes/default';
+
+  // 8. Hacks
+@import
+  'hacks/shame';
